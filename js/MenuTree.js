@@ -1,18 +1,3 @@
-//
-//window.onload = function(){
-//	
-//}
-//
-//
-//
-
-
-
-
-
-
-
-
 window.onload = function (){
 		var showOne = document.getElementsByClassName("One");		
 		for (var j = 0 ;j < showOne.length ; j++) {
@@ -54,13 +39,3 @@ window.onload = function (){
 		}
 
 }
-
-//window.onload = function(){
-//		var Lis = document.getElementsByClassName("Four").nextSibling.tagName("li");
-//		for(var x = 0;x<Lis.length;x++){
-//			Lis[x].onclick = function(){
-//				this.className="li.lihover";
-//			}
-//		}
-//}
-
