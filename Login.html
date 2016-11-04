@@ -2,7 +2,11 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8">
 		<title>动态生成验证码</title>
-		<link rel="stylesheet" href="css/Login.css" />
+		<!--设置网页的宽度随屏幕的宽度改变，缩放比例为1.0-->		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-device-width :900px)" href="css/Login.css"/>
+		<link rel="stylesheet" type="text/css" media="screen and (max-device-width :468px)" href="css/Login_mobie.css"/>
+		
 		<script type="text/javascript" src="js/Login.js" ></script>
 	</head>
 	<body onload="createCode()" style="width:100%;height:100%;background-color:#fff;

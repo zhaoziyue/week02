@@ -35,6 +35,6 @@ function ValidatePwd(){
 
 function skip(){
 			alert("注册成功");
-			document.getElementById("myform").action="index.html";
+			document.getElementById("myform").action="Login.html";
 }
 

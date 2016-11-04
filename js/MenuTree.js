@@ -1,26 +1,19 @@
-//$(function(){
-//	$('.One').click(function(e){
-//		var ul = $(this).next('.Two');
-//		if(ul.css("display")=="block"){
-//			ul.addClass('hide');
-//		}else{
-//			ul.removeClass('hide');
-//		}
-//	})
-//})
 //
-//$(function(){
-//	$('.Three').click(function(f){
-//		var li = $(this).children('.Four');
-//		if(li.css("display")=="none"){
-//			li.addClass('show');
-//		}else{
-//			li.removeClass('show');
-//		}
-//	})
-//})
+//window.onload = function(){
+//	
+//}
+//
+//
+//
 
-onload = function (){
+
+
+
+
+
+
+
+window.onload = function (){
 		var showOne = document.getElementsByClassName("One");		
 		for (var j = 0 ;j < showOne.length ; j++) {
 			showOne[j].onclick = function(){
@@ -61,3 +54,13 @@ onload = function (){
 		}
 
 }
+
+//window.onload = function(){
+//		var Lis = document.getElementsByClassName("Four").nextSibling.tagName("li");
+//		for(var x = 0;x<Lis.length;x++){
+//			Lis[x].onclick = function(){
+//				this.className="li.lihover";
+//			}
+//		}
+//}
+
