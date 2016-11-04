@@ -1,0 +1,101 @@
+*{margin:0;padding: 0;}
+.main{width: 100%;height: 1000px;margin: 0 auto;}
+
+/*头部的样式*/
+.header{width: 100%;height: 80px;background-color:#0AA770;opacity: 60;}
+.header a{width: 400px;height: 80px;}
+.header a img{width: 400px;height:80px;}
+.hd-search{width: 350px;height:36px;left:100px; margin-bottom:1.5%; position: relative;display: inline-block;}
+.hd-search input{width: 315px;height: 36px;border: none;position: absolute;}
+.hd-search span{width:40px;height: 36px;cursor: pointer;background-color:;}
+.hd-search span img{width: 32px;height: 32px;float: right;margin: 0 auto;}
+.Login{display: inline-block;position: absolute;margin-top:20px;margin-left: 250px;}
+.Login button{width: 50px;height: 32px;background-color: #0AA770;color: #fff;}
+
+
+
+/*轮播的样式*/
+.Carousel{width:100%;height: 450px;position: relative;margin-top: 30px;}
+#example{	width: 80%;height: 500px;margin: 0 auto;position: relative;}
+#focusImg{width: 1100px;height:430px;}
+.focusBox {position: absolute;top: 340px;width: 500px;left: 50%;margin-left: -60px;list-style: none;}
+.focusBox li {display: inline-block;margin-right: 10px;width: 15px;height: 15px;border-radius: 10px;cursor: pointer;}
+.focusBox li.cur {background: #f60;opacity: 0.6;filter: alpha(opacity=60);}
+
+
+/*导航栏的样式*/
+.Nav{width: 80%;height: 100px;background-color:;z-index:1;position:relative;top:-70px ;
+	margin: 0 auto;	opacity: 0.8;/*设置透明度*/display: inline-block;padding-left:15% ;}
+.Nav ul{margin: 0px auto;width: 100%;height: 100px;float: left;}
+.Nav ul li{list-style: none;float: left;width: 100px;height: 100%;text-align: center;
+			border-radius: 100%;margin: 0 20px;position: relative;}
+.Nav ul li a{text-decoration: none;color:#cornflowerblue;font-size: 20px;line-height: 100px;}
+.Nav ul li ul{position: absolute;display: none;background-color: inherit;border-radius: 100%;}
+.Nav ul li ul li{margin-top:2px ;float: none;margin: 0;background-color: inherit;}
+.Nav ul li:hover ul{display: block;}
+.Nav ul li:hover {background-color:darkorange;}
+.Nav ul li:hover a{color: #FFFFFF;}
+.Nav ul li ul li:hover a{color: mediumblue;}
+
+/*菜单树的样式*/
+.MenuTree{width:25%;height:auto;background-color:#F94A14;float: left;margin-left: 10%;color: #FFFFFF;}
+.MenuTree ul{width: 80%;height:100%;position: relative;}
+.MenuTree ul li{list-style: none;width: 100%;height: 20 %;}
+.MenuTree a{text-decoration: none;}
+.MenuTree p{cursor: pointer;color: #FFFFFF;}
+.One{font-size: 24px;background-color:#FF6537;border-bottom: 1px solid #FFFFFF;cursor: pointer;}
+.Two{display:block;left: 20%;position: relative;}
+.Three{font-size: 20px;background-color:#F94A14;border-bottom: 1px solid #FFFFFF;}
+.Four{display: none;}
+.show{display: block;left: 20%;position: relative;}
+.hide{display:none;}
+ul li ul li{z-index: 3;}
+ul li ul li p{font-size: 16px;cursor: pointer;font-family: "微软雅黑";}
+ul li ul li:hover p{background-color: #FFFFFF;color: #FF6537;box-shadow: 0 0 8px #DDD;
+					-moz-box-shadow:0 0 8px #DDD;-webkit-box-shadow: 0 0 8px #DDD;}
+ul li ul li:hover .white{background: white;top: -21px;left: -5%;z-index: 10;
+						width: 20px;height: 21px;float: right;position: relative;}
+ul li ul li:hover .submenu{display: block;}
+
+/*悬浮层的样式*/
+.submenu{
+	display: none;
+	width: 380%;
+	height: auto;
+	border: 1px solid #DDD;
+	position: absolute;
+	left: 90%;
+	z-index: 4;
+	top: -40px;
+	/*background-color:#0AA770 ;*/
+	background-color: #FFFFFF;
+	box-shadow: 0 0 8px #DDD;
+	-moz-box-shadow:0 0 8px #DDD;
+	-webkit-box-shadow: 0 0 8px #DDD;
+}
+.submenu table td img{margin: 0 10px;box-shadow: 0px 1px 3px #999;}
+.submenu table td{padding: 0;}
+.submenu table td span{margin:0 10px;}
+.submenu a{text-decoration: none;color: darkgrey;}
+
+
+/*菜单树的内容的样式*/
+.MenuTree_Content{width:auto;height: auto;float: left;border-radius:0% ;border: 2px solid #FF8C00;left: 50%;}
+#Home table td img{margin: 0 10px;box-shadow: 0px 1px 3px #999;border-radius: 5px;}
+#Home table td span{margin:0 10px;}
+#Home a{text-decoration: none;color: darkgrey;}
+
+
+
+/*菜单树中各个链接的内容*/
+
+
+
+
+
+
+
+
+
+
+
